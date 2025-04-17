@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -208,7 +210,6 @@
       }
     }
   </style>
-
   <script>
     $(document).ready(function () {
       $('#nav_menu > ul').slicknav({
@@ -217,3 +218,54 @@
     });
   </script>
 </head>
+<body>
+  <header>
+    <h2>San Joaquin Valley Town Hall</h2>
+    <h3>Celebrating our <span class="shadow">75<sup>th</sup></span> Year</h3>
+  </header>
+
+  <!-- Mobile Menu Container -->
+  <nav id="mobile_menu"></nav>
+
+  <!-- Main Navigation -->
+  <nav id="nav_menu">
+    <ul>
+      <li><a href="index.html" class="current">Home</a></li>
+      <li><a href="#">Speakers</a></li>
+      <li><a href="#">Luncheons</a></li>
+      <li><a href="#">Tickets</a></li>
+      <li><a href="#">About Us</a>
+        <ul>
+          <li><a href="#">Our History</a></li>
+          <li><a href="#">Board of Directors</a></li>
+          <li><a href="#">Past Speakers</a></li>
+          <li><a href="#">Contact Information</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h1>Welcome</h1>
+      <article>
+        <img src="images/anderson.jpg" alt="M.T. Anderson">
+        <p>M.T. Anderson is the author of several celebrated books including *Feed*, a satirical novel set in a future where people connect to the internet via brain implants, and *The Astonishing Life of Octavian Nothing*, winner of the National Book Award. His work spans multiple genres and audiences, from young adults to historical fiction.</p>
+      </article>
+    </section>
+    <aside>
+      <h1>Upcoming Events</h1>
+      <div>
+        <h2><a href="#">Oct 15 – M.T. Anderson</a></h2>
+        <p><em>Author of Feed and National Book Award winner.</em></p>
+        <h2><a href="#">Nov 12 – Jane Smith</a></h2>
+        <p><em>Renowned climate scientist and speaker.</em></p>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    &copy; 2025 San Joaquin Valley Town Hall. All rights reserved.
+  </footer>
+</body>
+</html>
